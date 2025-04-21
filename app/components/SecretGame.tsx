@@ -96,17 +96,17 @@ export const SecretGame = ({ onClose }: SecretGameProps) => {
               ))}
             </div>
 
-            <div className="grid grid-cols-3 gap-3 sm:gap-4 max-w-[250px] sm:max-w-[300px] mx-auto">
-              <div className="col-start-2">
+            <div className="grid grid-cols-3 gap-3 sm:gap-4 w-full max-w-[250px] sm:max-w-[300px] mx-auto place-items-center">
+              <div className="col-start-2 w-full flex justify-center">
                 <DirectionButton direction="ArrowUp" icon="↑" />
               </div>
-              <div className="col-start-1">
+              <div className="col-start-1 w-full flex justify-center">
                 <DirectionButton direction="ArrowLeft" icon="←" />
               </div>
-              <div className="col-start-2">
+              <div className="col-start-2 w-full flex justify-center">
                 <DirectionButton direction="ArrowDown" icon="↓" />
               </div>
-              <div className="col-start-3">
+              <div className="col-start-3 w-full flex justify-center">
                 <DirectionButton direction="ArrowRight" icon="→" />
               </div>
             </div>
