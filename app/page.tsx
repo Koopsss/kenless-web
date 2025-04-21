@@ -7,6 +7,7 @@ import { GlitchText } from './components/GlitchText';
 import { AnimatedBackground } from './components/AnimatedBackground';
 import { SecretGame } from './components/SecretGame';
 import { bebasNeue } from './fonts';
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   const [showGame, setShowGame] = useState(false);
@@ -102,6 +103,8 @@ export default function Home() {
           />
         )}
       </AnimatePresence>
+
+      <Analytics />
 
       {/* Overlay para prevenir el zoom en móviles */}
       <meta 

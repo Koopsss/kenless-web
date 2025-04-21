@@ -72,14 +72,14 @@ export const SecretGame = ({ onClose }: SecretGameProps) => {
         className="bg-black p-4 sm:p-6 md:p-8 rounded-lg border border-green-500/30 w-full max-w-[90vw] sm:max-w-2xl mx-auto text-center"
         onClick={e => e.stopPropagation()}
       >
-        <div className="mb-6 sm:mb-8">
-          <h2 className="text-xl sm:text-2xl mb-3 sm:mb-4 text-green-500">Descubre el secreto</h2>
-          <p className="text-sm sm:text-base text-green-400/80 mb-3 sm:mb-4">Usa las flechas del teclado o los botones en pantalla...</p>
-          <p className="text-xs sm:text-sm text-green-500/60">Pista: Es un código clásico de videojuegos</p>
-        </div>
-
         {!isSuccess && (
           <>
+            <div className="mb-6 sm:mb-8">
+              <h2 className="text-xl sm:text-2xl mb-3 sm:mb-4 text-green-500">Descubre el secreto</h2>
+              <p className="text-sm sm:text-base text-green-400/80 mb-3 sm:mb-4">Usa las flechas del teclado o los botones en pantalla...</p>
+              <p className="text-xs sm:text-sm text-green-500/60">Pista: Es un código clásico de videojuegos</p>
+            </div>
+
             <div className="flex justify-center gap-2 mb-6 sm:mb-8">
               {correctSequence.map((_, index) => (
                 <motion.div
