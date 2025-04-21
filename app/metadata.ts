@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     }
   },
   verification: {
-    google: '' // Añade aquí el código de verificación de Google Search Console (solo el content="XXXXX")
+    google: 'uBV55nN9fShbQQ10gZ1ZtMWQXlRX1mT5E20IyXQzr7M'
   },
   alternates: {
     canonical: 'https://kenless.es'
