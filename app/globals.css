@@ -24,3 +24,62 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes glitch {
+  0% {
+    opacity: 0.3;
+    transform: translate(-10px);
+  }
+  20% {
+    opacity: 0.5;
+    transform: translate(10px);
+  }
+  40% {
+    opacity: 0.7;
+    transform: translate(-5px);
+  }
+  60% {
+    opacity: 0.4;
+    transform: translate(5px);
+  }
+  80% {
+    opacity: 0.6;
+    transform: translate(-2px);
+  }
+  100% {
+    opacity: 0.3;
+    transform: translate(0);
+  }
+}
+
+@keyframes scan {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-1px) translateY(1px); }
+  50% { transform: translateX(1px) translateY(-1px); }
+  75% { transform: translateX(-1px) translateY(-1px); }
+}
+
+.animate-glitch {
+  animation: glitch 0.3s infinite;
+}
+
+.animate-scan {
+  animation: scan 2s linear infinite;
+}
+
+.animate-shake {
+  animation: shake 0.1s linear infinite;
+}
