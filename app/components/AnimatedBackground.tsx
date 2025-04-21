@@ -47,7 +47,6 @@ export const AnimatedBackground = () => {
     }
 
     const characters = '01'.split('');
-    let frameCount = 0;
     let lastEasterEggTime = Date.now();
 
     const draw = () => {
@@ -75,7 +74,6 @@ export const AnimatedBackground = () => {
       }
 
       // Easter Eggs
-      frameCount++;
       const now = Date.now();
       if (now - lastEasterEggTime > 5000 && Math.random() > 0.995) {
         const easterEgg = EASTER_EGGS[Math.floor(Math.random() * EASTER_EGGS.length)];
