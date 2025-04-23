@@ -1,3 +1,48 @@
+# KENLESS Web
+
+![KENLESS Logo](/public/logokenlessnew.png)
+
+## ⚠️ Aviso Legal
+
+Este repositorio contiene código propietario y está protegido por derechos de autor. Aunque el código es visible públicamente, está sujeto a restricciones de uso específicas.
+
+### 📜 Términos de Uso
+
+- ✅ **Permitido**:
+  - Ver el código con fines educativos
+  - Usar como referencia para aprender
+  - Clonar el repositorio para uso personal
+
+- ❌ **No Permitido**:
+  - Uso comercial del código
+  - Modificación o creación de trabajos derivados
+  - Redistribución del código
+  - Uso de la marca KENLESS o sus activos
+
+### 🔒 Protección de Propiedad Intelectual
+
+Todo el contenido de este repositorio, incluyendo pero no limitado a:
+- Código fuente
+- Diseños
+- Imágenes
+- Logos
+- Nombres de marca
+
+Es propiedad intelectual de KENLESS y está protegido por las leyes de derechos de autor.
+
+## 📋 Licencia
+
+Este proyecto está bajo una licencia personalizada. Ver el archivo [LICENSE](LICENSE) para más detalles.
+
+## 📞 Contacto
+
+Para cualquier consulta sobre el uso del código o solicitudes de colaboración, por favor contacta con:
+- 📧 Email: [contacto@kenless.es](mailto:contacto@kenless.es)
+
+---
+
+© 2024 KENLESS. Todos los derechos reservados.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
