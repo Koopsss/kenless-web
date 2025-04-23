@@ -1,6 +1,6 @@
 # KENLESS Web
 
-![KENLESS Logo](/public/logokenlessnew.png)
+![KENLESS Logo](/public/kenlesslogo.png)
 
 ## ⚠️ Aviso Legal
 
@@ -41,7 +41,7 @@ Para cualquier consulta sobre el uso del código o solicitudes de colaboración,
 
 ---
 
-© 2024 KENLESS. Todos los derechos reservados.
+© 2025 KENLESS. Todos los derechos reservados.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
